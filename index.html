@@ -78,6 +78,24 @@
   transform: translateY(4px);
 }
 </style>
+<style type="text/css">
+    .glow {
+        -webkit-animation-duration: 1s;
+        -webkit-animation-name: glow;
+        -webkit-animation-direction: alternate;
+        -webkit-animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-name: glow;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    
+    }
+    
+    @-webkit-keyframes glow {
+        from { text-shadow: 0 0 0px red; }
+        to { text-shadow: 0 0 20px red; }
+    }
+  </style>
   <script type="text/javascript" src="libs/jquery.1.7.2.js"></script>
     <script type="text/javascript" src="build/jquery.syotimer.min.js"></script>
 
@@ -101,22 +119,22 @@
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right">
 			<li>
-			<a class="page-scroll" style="color:white;" href="#page-top">Bride & Groom</a>
+			<a class="page-scroll glow" style="color:white;" href="#page-top">Bride & Groom</a>
 			</li>
 			<li>
-			<a class="page-scroll" style="color:white;" href="#about">Ceremony</a>
+			<a class="page-scroll glow" style="color:white;" href="#about">Ceremony</a>
 			</li>
 			<li>
-			<a class="page-scroll" style="color:white;" href="#invite">Invite</a>
+			<a class="page-scroll glow" style="color:white;" href="#invite">Invite</a>
 			</li>
 			<li>
-			<a class="page-scroll" style="color:white;" href="#marriage">marriage</a>
+			<a class="page-scroll glow" style="color:white;" href="#marriage">marriage</a>
 			</li>	
 			<li>
-			<a class="page-scroll" style="color:white;" href="#pricing">Days to Go</a>
+			<a class="page-scroll glow" style="color:white;" href="#pricing">Days to Go</a>
 			</li>
 			<li>
-			<a class="page-scroll" style="color:white;" href="#contact">Location</a>
+			<a class="page-scroll glow" style="color:white;" href="#contact">Location</a>
 			</li>
 		</ul>
 	</div>
@@ -126,14 +144,14 @@
 </nav>
 
 <div class="container">
-<div  class="row" style="background: linear-gradient(180deg,#330000,#000000,#330000);">
+<div  class="row" style="background-image:url(img/bg/66.jpg);background-attachment:fixed;">
 
-  <center><img src="img/design/2.png" style="position:relative;top:45px;left:1px;" ></center><br><br>
+  <center><img src="img/design/2.png" style="position:relative;top:55px;left:1px;" ></center><br><br>
   
-  <h6><center><b><i style="color:white;text-shadow: 2px 2px 10px red;">25th february 2018 Sunday </i></b></center></h6><br>
+  <h6><center><b><i class="glow item" style="color:black;font-size:20px;font-family:Georgia;font-style:italic;text-shadow: 1px 1px 2px black;position:relative;top:5px;left:1px;"><b>25th february 2018 Sunday </i></b></center></h6>
   </div>
 <!-- Start WOWSlider.com BODY section -->
-<div  class="row" style="background-image:url(img/bg/46.jpg);background-attachment:fixed;">
+<div  class="row" style="background-image:url(img/bg/66.jpg);background-attachment:fixed;">
 <div id="wowslider-container1" >
 <div class="ws_images"><ul>
 		<li><img src="data1/images/11.jpg" alt="" title="" id="wows1_0"/></li>
@@ -159,15 +177,15 @@
 
 <div  class="row" style="background-image:url(img/bg/15.jpg);background-attachment:fixed;">
   <div class="col-sm-4">
-    <center><h3 style="background-color:black;border-radius: 10px;padding: 2px; color:white;font-family:Felipa;font-size: 22px;text-shadow: 5px 5px 25px red;">WEDDING &#9829; CEREMONY</h3></center><br>
+    <center><h3 class="glow" style="background-color:black;border-radius: 10px;padding: 2px; color:white;font-family:Felipa;font-size: 22px;text-shadow: 5px 5px 25px red;">WEDDING &#9829; CEREMONY</h3></center><br>
     <img src="img/pic/3.jpg" style="width:100%;border-radius: 25px;height:350px;">
   </div>
         <div class="col-sm-4"> 
-    <center><h3 style="background-color:black;border-radius: 10px;padding: 2px; color:white;font-family:Felipa;font-size: 22px;text-shadow: 5px 5px 25px red;">BRIDE &#9829; GROOM</h3></center><br>
+    <center><h3 class="glow" style="background-color:black;border-radius: 10px;padding: 2px; color:white;font-family:Felipa;font-size: 22px;text-shadow: 5px 5px 25px red;">BRIDE &#9829; GROOM</h3></center><br>
     <img  src="img/pic/6.jpg" style="width:100%;border-radius: 25px;"><br><br>
     </div>
   <div class="col-sm-4">
-    <center><h3 style="background-color:black;border-radius: 10px;padding: 2px; color:white;font-family:Felipa;font-size: 22px;text-shadow: 5px 5px 25px red;">HOLDING T&#9829; GETHER</h3></center><br>
+    <center><h3 class="glow" style="background-color:black;border-radius: 10px;padding: 2px; color:white;font-family:Felipa;font-size: 22px;text-shadow: 5px 5px 25px red;">HOLDING T&#9829; GETHER</h3></center><br>
     <img src="img/pic/5.jpg" style="width:100%;border-radius: 25px;height:350px;"><br><br><br>
   </div>
 </div>
@@ -184,12 +202,12 @@
 <div style="background-image:url(img/bg/24.jpg);background-attachment:fixed;" class="row" >
     <div class="col-sm-4"> 
     <center><h3></h3></center>
-    <img src="img/pic/1.jpg" style="width:100%;height:470px;border-radius:75px 5px 75px 5px;">
+    <img src="img/pic/1.jpg" class="glow" style="width:100%;height:470px;border-radius:75px 5px 75px 5px;">
     <center><h3></h3></center>
     </div>
   <div class="col-sm-8" >
-  <center><h1 style="color:white;font-family:Georgia;font-style:italic;">Invite</center>
-  <center><img src="img/bg/56.jpg" style="width:100%;height:370px;border-radius:50px 50px 5px 5px;"></center>
+  <br>
+  <center><img src="img/design/in.jpg" style="width:400px;height:470px;border-radius:50px 50px 5px 5px;"></center>
 
   
   </div>
@@ -232,7 +250,7 @@
 					<blockquote>
 						<div class="row">
 							<div class="col-sm-8 col-sm-offset-2">
-								<p style="color:white;font-size:20px;" >
+								<p style="color:white;font-size:20px;" class="glow">
 									He Stole My Heart, <br>
 									So I'am Stealing His Last Name.
 								</p>
@@ -246,7 +264,7 @@
 					<blockquote>
 						<div class="row">
 							<div class="col-sm-8 col-sm-offset-2">
-								<p style="color:white;font-size:20px;">
+								<p style="color:white;font-size:20px;" class="glow">
 									Every Love Story Is Beautiful,<br>
 									But Ours Is My Favourite.
 								</p>
@@ -266,17 +284,17 @@
 
 <section id="pricing" class="no-padding">
 <div class="row"  style="background: linear-gradient(180deg,#330000,#000000,#330000);">
-<center><p style="font-size:20px;color:white;font-family:Georgia;font-style:italic;"><i>
-        <img src="img/time.png" style="width:20px;height:20px;"> &nbsp;Block Your Calendar For This Most Cherished Movement...
+<center><p style="font-size:20px;color:white;font-family:Georgia;font-style:italic;" class="glow"><i>
+        &nbsp;&nbsp;<img src="img/time.png" style="width:20px;height:20px;"> &nbsp;Block Your Calendar For This Most Cherished Movement...
 </i></p>
-            <div id="simple-timer"></div>
+            <div class="glow" id="simple-timer"></div>
 
         </div>
 </center>
 </section>
 
 <div class="row" style="background: linear-gradient(180deg,#330000,#000000,#330000);">
-<br><center><p style="font-size:20px;color:white;font-family:Georgia;font-style:italic;"><i><img src="img/location.png">Venue:G.N. Thirumana Mahal,Arringar Anna Salai,Vellore.</i></p>
+<br><center><p style="font-size:20px;color:white;font-family:Georgia;font-style:italic;" class="glow"><i><img src="img/location.png">Venue:G.N. Thirumana Mahal,Arringar Anna Salai,Vellore.</i></p>
 <button class="button"><a href="https://www.google.co.in/maps/dir/''/''/@12.9082669,79.3166337,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bad35ad1b647145:0xa830bb262c221a97!2m2!1d79.3261636!2d12.910786"><b>Get Direction</button><br><br><br>
 
 </div>
