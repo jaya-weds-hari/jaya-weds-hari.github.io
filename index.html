@@ -31,6 +31,11 @@
 <link href='https://fonts.googleapis.com/css?family=Felipa' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <link href="https://fonts.googleapis.com/cssfamily=Lato" rel="stylesheet">
+<script>
+    jQuery(window).load(function(){
+        jQuery(".hameid-loader-overlay").fadeOut(500);
+    });
+</script>
  <style type="text/css">
             .syotimer{
             text-align: center;
@@ -145,6 +150,7 @@ opacity:1;filter:"alpha(opacity=100)";
 <audio autoplay>
 <source src="hb.lite.mp3" type="audio/mpeg">
 </audio>
+<div class="hameid-loader-overlay"></div>
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background: linear-gradient(180deg,#330000,#000000,#330000);">
 <div class="container">
 	<!-- Brand and toggle get grouped for better mobile display -->
