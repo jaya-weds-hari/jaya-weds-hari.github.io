@@ -2,9 +2,9 @@ jQuery(function($){
     /* Simple Timer. The countdown to 20:30 2100.05.09 */
     $('#simple-timer').syotimer({
         year: 2018,
-        month: 02,
-        day: 25,
-        hour: 07,
+        month: 07,
+        day: 27,
+        hour: 14,
         minute: 30
     });
 
